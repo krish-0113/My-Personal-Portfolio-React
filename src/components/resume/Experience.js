@@ -9,7 +9,7 @@ const Experience = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="py-12 font-titleFont flex gap-20"
     >
-      <div>
+      {/* <div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2022 - 2025</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
@@ -33,8 +33,8 @@ const Experience = () => {
             result="Oman"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
           /> */}
-        </div>
-      </div>
+        {/* </div>
+      </div> */} 
       <div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2022 - 2025</p>
