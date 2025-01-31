@@ -1,42 +1,36 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe} from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+// import { AiFillAppstore } from 'react-icons/ai';
+import { FaMobile } from 'react-icons/fa';
+import { SiProgress, SiAntdesign } from 'react-icons/si';
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    title: "Business Stratagy",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
-  {
-    id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
-  {
+    title: 'Web Development',
+    des: 'Building modern, responsive, and user-friendly websites tailored to meet business needs.',
+},
+// {
+//     id: 2,
+//     icon: <AiFillAppstore />,
+//     title: 'App Development',
+//     des: 'Creating high-performance mobile and web applications with seamless functionality.',
+// },
+{
     id: 3,
     icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
-  {
+    title: 'Java Development',
+    des: 'Developing robust and scalable applications using Java for diverse domains.',
+},
+{
     id: 4,
     icon: <FaMobile />,
-    title: "Mobile Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
-  {
-    id: 5,
-    icon: <SiAntdesign />,
-    title: "UX Design",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
-  {
-    id: 6,
-    icon: <FaGlobe />,
-    title: "Hosting Websites",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
+    title: 'Database Management',
+    des: 'Designing, implementing, and managing efficient database systems for data integrity.',
+},
+// {
+//     id: 5,
+//     icon: <SiAntdesign />,
+//     title: 'UX Design',
+//     des: 'Crafting intuitive user experiences with a focus on design and usability principles.',
+// },
 ];

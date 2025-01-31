@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+      words: ["Professional Coder.", "Web Developer.", "Java Developer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -15,7 +15,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm <span className="text-designColor capitalize">Krishna Jadhav</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -26,9 +26,11 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        I’m a dedicated software developer with expertise in React, JavaScript, Java, SQL, and MySQL. 
+        I specialize in building efficient, scalable, and user-friendly solutions. Along with my technical proficiency, 
+        I excel in problem-solving, coding, and data structures and algorithms (DSA), which I apply across Java and React projects. 
+        I thrive in collaborative environments, always aiming to deliver innovative solutions through clean code. Explore my portfolio 
+        to see how I bring ideas to life with solid technical foundations and creative problem-solving approaches!
         </p>
       </div>
      {/* Media */}
