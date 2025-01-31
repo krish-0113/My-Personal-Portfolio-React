@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 // import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
@@ -44,11 +44,11 @@ const Navbar = () => {
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
                 {/* <img className="w-32" src={logo} alt="logo" /> */}
-                <p className="text-sm text-gray-400 mt-2">
+                {/* <p className="text-sm text-gray-400 mt-2">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Earum soluta perspiciatis molestias enim cum repellat, magnam
                   exercitationem distinctio aliquid nam.
-                </p>
+                </p> */}
               </div>
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
@@ -75,15 +75,30 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                   <a
+                              href="https://github.com/krish-0113"
+                              target="_blank"
+                              rel="noreferrer"
+                              className="bannerIcon"
+                            >
+                              <FaGithub />
+                            </a>
+                            <a
+                              href="https://www.instagram.com/krish__6268/"
+                              target="_blank"
+                              rel="noreferrer"
+                              className="bannerIcon"
+                            >
+                              <FaInstagram />
+                            </a>
+                            <a
+                              href="https://www.linkedin.com/in/krishna-jadhav-31760a28a/"
+                              target="_blank"
+                              rel="noreferrer"
+                              className="bannerIcon"
+                            >
+                              <FaLinkedinIn />
+                           </a>
                 </div>
               </div>
               <span
